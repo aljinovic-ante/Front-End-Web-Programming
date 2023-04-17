@@ -1,0 +1,132 @@
+body,html{
+    background-color: rgb(251, 249, 249);
+    font-family:'Tilt Neon';
+    font-size: medium;
+}
+
+#nav_h{
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    background-color: rgb(251, 249, 249);
+    font-family:'Tilt Neon';
+    font-size: large;
+    text-decoration: none;
+}
+
+#nav_h2{
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    color: white;
+    background-color: rgb(46, 46, 179);
+    font-family:'Tilt Neon';
+    font-size: large;
+    text-decoration: none;
+}
+
+#nav_h2 a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+nav a{
+    color:rgb(33, 53, 107);
+    text-decoration: none;
+}
+
+a:hover{
+    color:rgb(113, 167, 202);
+}
+
+a:active{
+    color:rgb(67, 14, 153);
+}
+
+.center-text{
+    font-size: large;
+    font-family:'Tilt Neon';
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 28%;
+    padding-left: 25px;
+}
+
+#header{
+
+    background-image: url("../images/2header.jpg");
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    text-align: center;
+    max-width: 100%;
+	max-height: 100%;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+    /* background-image: url("../images/2header.jpg");
+    height: 500px;
+    width: 100%; */
+}
+
+.center-text{
+    position:static;
+    font-size: large;
+    font-family:'Tilt Neon';
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 20%;
+    padding-left: 25px;
+}
+
+.left{
+    float: left;
+    width: 55%;
+}
+
+.right{
+    float: right;
+    width: 45%;
+}
+
+.info
+{
+   margin: auto;
+   text-align:justify;
+}
+
+p,ul,li{
+    color:rgb(53, 109, 230);
+    font-family:'Tilt Neon';
+    font-size:125%;
+    text-decoration: none;
+}
+
+.copyright
+{
+    
+    text-align: center;
+    color: rgb(255, 252, 252);
+    background-color: rgb(37, 88, 182);
+}
+
+table,tr,td{
+    align-content: space-evenly;
+    background-color: #c9d0e2;
+}
+
+tr:first-child {
+    background-color: #899cd6;
+}
+
+.tumb{
+    float: left;
+}
+
+#art2{
+    padding: 1%;
+    align-items: center;
+    background-color: rgb(224, 215, 250);
+}
